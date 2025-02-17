@@ -1,7 +1,9 @@
-num = 1
+num = int(input("Enter the Natural Number: "))
 sum = 0
+i = 1 
 
-while(num<=10):
-    sum = sum+num
-    num = num+1
-print("The Sum :" , sum)
+while (i <= num):
+    sum += i
+    i += 1
+
+print("The Sum:", sum)
